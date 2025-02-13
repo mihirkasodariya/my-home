@@ -1,0 +1,196 @@
+.servicebanner {
+  background: radial-gradient(
+      34.28% 34.28% at 50% 50%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 99.83%
+    ),
+    url("../../assets/img/servicebanner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 420px;
+}
+
+@media screen and (max-width: 768px) {
+  .servicebanner {
+    height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .servicebanner {
+    height: 240px !important;
+  }
+}
+
+/*! CSS Used from: https://www.growinfinityrealtors.in/css/bootstrap.min.css */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*! CSS Used from: https://www.growinfinityrealtors.in/fonts/flaticon/font/flaticon.css */
+[class^="flaticon-"]:before,
+[class^="flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: auto;
+  font-style: normal;
+  margin-left: 0px;
+}
+
+.flaticon-apartment:before {
+  content: "\f101";
+}
+
+.service-info-1 {
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  background: #fff;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.9s;
+  position: relative;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.service-info-1:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-info-1 h3 {
+  margin: 10px 0 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.service-info-1 p {
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.service-info-1 .read-more {
+  line-height: 1;
+  font-weight: 600;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: block;
+  font-size: 16px;
+}
+
+.service-info-1 i {
+  display: inline-block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 45px;
+}
+
+.service-info-1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.9s;
+  z-index: -1;
+}
+
+.service-info-1:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.service-info-1:hover i {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.service-info-1:hover::before {
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(3, 0, 46, 0.8) 0%,
+    rgba(3, 0, 46, 1) 100%
+  ); /* Darker linear gradient */
+}
+
+.service-info-1:hover p {
+  color: #fff;
+}
+
+.service-info-1:hover h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.service-info-1:hover .read-more {
+  color: #ffffff;
+}
+
+.service-info-1:hover i {
+  color: #fff;
+}
+
+.service-info-1 .read-more:hover {
+  letter-spacing: 1.5px;
+}
+
+.read-more {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.service-info-1 i {
+  color: #03002e;
+}
+
+.service-info-1::before {
+  background: #03002e;
+}
+
+.read-more {
+  color: #03002e;
+}
+
+/*! CSS Used from: Embedded */
+h3,
+p {
+  font-family: "BentonBold", sans-serif !important;
+}
+
+/*! CSS Used from: Embedded */
+.service-info-1 {
+  padding: 20px 10px !important;
+  margin-bottom: 20px !important;
+  height: 20em;
+}

@@ -1,0 +1,32 @@
+.body {
+  /* background: #fff; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 450px;
+  height: 500px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px){
+  .awards-swiper{
+    width: 300px;
+    height: 300px;
+  }
+}
